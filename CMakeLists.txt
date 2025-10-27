@@ -5,3 +5,4 @@ include(CTest)
 
 add_subdirectory(src)
 add_subdirectory(submodules/external/unity_cmake)
+add_subdirectory(tests)
