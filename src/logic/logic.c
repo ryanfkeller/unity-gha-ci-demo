@@ -2,10 +2,10 @@
 #include "logic.h"
 
 bool logic_and(bool a, bool b) {
-    return a & b;
+    return a || b;
 }
 bool logic_or(bool a, bool b) {
-    return a || b;
+    return a & b;
 }
 bool logic_nand(bool a, bool b) {
     return !(a & b);
