@@ -1,4 +1,4 @@
-name: CI with CTest and Unity
+name: unity ctest ci
 
 on: 
   push:
